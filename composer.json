@@ -1,0 +1,22 @@
+{
+    "name": "bignerd/yii2-uploadify",
+    "description": "uploadify jquery plugin combined with yii2 framework.",
+    "keywords": ["uploadify", "yii", "extension", "widget"],
+	"homepage": "https://github.com/bigbignerd/yii2-uploadify.git",
+	"type": "yii2-extension",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "bignerd",
+			"email": "wanguohui@yahoo.com"
+		}
+	],
+    "require": {
+		"yiisoft/yii2": "*"
+    },
+    "autoload": {
+		"psr-4": {
+			"bignerd\\extension\\": ""
+		}
+	}
+}
